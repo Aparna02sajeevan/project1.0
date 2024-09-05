@@ -1,16 +1,18 @@
 body{
   text-align:center;
-  width:1340px;
+  width:1240px;
 }
-@media (max-width:600px) {
+@media (max-width:360px) {
     body{
-        width: 300px;
-        
+        width: 360px;
+        text-align: center;
     }
     .mala{
+        
         text-align: center;
         width:250px;
         height: 50px;
+        padding: 0 100px;
     }
     .cls1{
         flex-direction: column;
@@ -19,7 +21,12 @@ body{
         height: 20px;
     }
     .top-container{
+        display: grid;
+        width: 300px;
         position: relative;
+        
+        
+        
     }
     .h3{
         flex-direction: column;
@@ -29,66 +36,156 @@ body{
     }
     .dp{
         flex-direction: column;
-        margin-top: 250px;
-        left:80px;
+        margin-top: 280px;
+        width:7rem;
+        height: 30rem;
+         left:50px;
         
     }
     .logo{
-        flex-direction: column;
-        margin-top: 300px;
-        width:50px;
-        height: 500px;
-        display: grid;
+       
+        height: 200rem;
+        background-color: hidden;
+        
     }
     
     .logsize{
-        flex-direction: column;
-        flex-shrink: inherit;
-        
-       
-       
+        display: grid;
+        height: 300px;
     }
     .middle-container{
-        flex-direction: column;
-        width:300px;
-        height:600px;
-        right:600px;
-        
+        display: grid;
+        box-sizing: content-box;
+        width:200px;
+        height:700px;
+        right:700px;
+       
     }
     .touch{
-        margin-top:500px ;
+        width:7rem;
+        height: 30rem;
         left:650px;
     }
+    .head{
+        position: relative;
+        left:550px;
+    }
+    .didi{
+        
+        position: relative;
+        bottom: 300px;
+        left:30px;
+    }
     .bottom-container{
-        padding-top: 400px;
+        padding-top: 100px;
+        flex-direction: column;
+    }
+    .UI{
+        position: relative;
+        float:inline-start;
+        width:300px;
+        margin-right:300px;
+    }
+    .second{
+        position: relative;
+        float:inline-start;
+        width:300px;
+        margin-right:300px;
+    }
+    .third{
+        position: relative;
+        float:inline-start;
+        width:300px;
+        margin-right:300px;
+    }
+    .container{
+       
+        width: 300px;
+        position: relative;
+        display: grid;
+        
+        flex-direction: column;
+        size-adjust:inherit;
+       
+    }
+    .testi{
+        text-align: center;
+       
     }
     
-    .container{
-        
-        display: grid;
-        flex-direction: column;
-       
-       
-    }
     .last{
+        position: relative;
         flex-direction: column;
         display: grid;
-        margin-top: 1200px;
+        margin-top: 2100px;
         
+        right:50px;
     }
     .word2{
-        margin-left: 50px;
+        position: relative;
+        width:200px;
         flex-direction: column;
         display: grid;
+        float: inline-start;
+       
     }
     .end{
-        height: 1500px; 
+        height: 1500px;
+        position: relative; 
+        display: grid;
+        width: 450px;
+        
+        
+        
+    }
+    .word{
+        position: relative;
+        width:300px;
+        
+        
+    }
+    .a{
+        width:200px;
+        height: 700px;
+        right:20px;
+       
     }
     .forms{
-
+        position: relative;
+        width:200px;
+        height: 200px;
+        top:50px;
+        margin-left: 270px;
     }
-   
+    .final{
+        position: relative;
+        flex-direction: column;
+        width:500px;
+        
+    }
+    .aura1{
+        position: relative;
+        left: 200px;
+        margin-right:700px;
+    }
+    .flw{
+        position: relative;
+        right:450px;
+        width:200px;
+    }
+    .divi{
+        position: relative;
+        bottom:40px;
+        margin-right: 1700px;
+    }
+
     
+    
+
+    
+}
+
+.mala{
 
     
 }
@@ -108,7 +205,7 @@ span{
 .top-container{
     position: static;
     text-align: left;
-    width:400px;
+    
     height:400px;
     padding-left: 90px;
     padding-top: 90px;
@@ -126,13 +223,14 @@ span{
 .middle-container{
     position: relative;
     top:100px;
-    width:1240px;
+    
     
 
 }
 .bottom-container{
     position: relative;
     margin-top:300px ;
+    
 }
 .touch{
     position: relative;
@@ -178,6 +276,7 @@ span{
     color:white;
     top:100px;
     padding: 10px;
+    left:70px;
 
     
 }
@@ -188,7 +287,7 @@ span{
     border-radius: 40px ;
     display: inline-block;
     top:100px;
-
+    left:70px;
     border:1px solid blue;
 }
 .third{
@@ -199,17 +298,16 @@ span{
     display: inline-block;
     top:100px;
     border:1px solid blue;
-
+    left:70px;
 }
 .container{
-    width:1240px;
     position: relative;
     top:200px;
     padding:30px;
     background-color: rgb(9, 73, 191);
     color:white;
     text-align: center;
-    
+    left:50px;
 }
 .one{
     position: relative;
@@ -260,6 +358,7 @@ span{
 .word{
     text-align: center;
     position: relative;
+    left:20px;
     top:200px;
     line-height: 50px;
   }
@@ -272,20 +371,24 @@ span{
 }
 
 .word2{
-    width:1200px;
+    position: relative;
+    
     height: 900px;
     line-height: 30px;
     column-gap: 30px;
+    left: 20px;
+    padding: 50px;
+    
 }
 .last{
     text-align: center;
-    width:1200px;
+    left:50px;
     margin-left: 70px;
 }
 .per1{
     padding:20px;
-    width:250px;
-    height:500px;
+    width:200px;
+    height:400px;
     border:1px solid rgb(7, 103, 205);
     display:inline-block;
     left:40px;
@@ -295,8 +398,8 @@ span{
 .per2{
     border-radius: 30px;
     padding:20px;
-    width:250px;
-    height:500px;
+    width:200px;
+    height:400px; 
     background-color: rgb(9, 73, 191);
     display:inline-block;
     margin-bottom:100px ;
@@ -307,28 +410,29 @@ span{
 }
 .end{
     background-color: rgb(9, 73, 191);
-    width:1270px;
-    height:900px;
-    padding: 30px;
+    position: relative;
+    padding: 10px 30px;
+    
     color: white;
     line-height: 30px;
-
+    left:40px;
 }
 .a{
     background-color: white;
     color: black;
     padding: 20px;
-    width: 550px;
+    width: 450px;
     height: 300px;
     text-align: left;
+    position: relative;
     border-radius: 30px;
 }
 .forms{
     position: relative;
-    width:800px;
     height: 300px;
-    left:500px;
+    float: inline-end;right:300px;
     bottom:330px;
+    width:300px;
     
     
 }
@@ -353,10 +457,14 @@ span{
 .aura{
     display:inline-block;
     position: relative;
-    right: 350px;
+    margin-top:300px;
+    right: 100px;
+   
+    
 }
 .aura1{
-   
+    position: relative;
+    left:200px;
     display:inline-block;
    text-align: center;
 }
@@ -373,15 +481,14 @@ span{
     top:10px;
 }
 .logo{
-    background-color: rgb(209, 202, 202);
+   
     display: inline-block;
     position: relative;
-    width:1240px;
     height: 100px;
-    padding-top: 50px;
+    left:30px;
+    padding:30px 100px 0 100px;
     top:50px;
-   
-    
+  
 }
 .logsize{
     display: inline-block;
@@ -438,6 +545,7 @@ span{
     display: inline-block;
     width:100px;
     height: 50px;
+    
     font-size: larger;
     position: relative;
     left:300px;
